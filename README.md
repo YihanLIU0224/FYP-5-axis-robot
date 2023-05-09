@@ -39,6 +39,15 @@ Code to calculate inverse kinematic equations
 #### Code 4: joint_motion.py
 Code to control the rotation of joints
 ## (3) Computer Vision
+The following codes for computer vision require to build the environment for RealSense Camera.  
+Detailed procedure for this could be 
 ### (3.1) Colour Recognition
+#### HSV detector.py
+#### colour_detect.py
+### ----------------------------------------------------------------------------------------------
 ### (3.2) Facial Recognition
+#### haarcascade_frontalface_default.xml
+#### data_setup.py
+#### trainer.py
+#### facial_recognition.py
 ## (4) Final Application
