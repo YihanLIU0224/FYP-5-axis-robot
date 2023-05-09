@@ -53,6 +53,10 @@ Program to detect the values of HSV parameters of a pixel colour
 Program to detect and measure the coordinate of object with a specific colour
 ### ----------------------------------------------------------------------------------------------
 ### (3.2) Facial Recognition
+The procedures to use facial recognition code are
+1. Recognize the face and save specific facial images into a database
+2. Train the camera using database to generate trainer.yml
+3. Recognize the specific face using trainer.yml
 #### haarcascade_frontalface_default.xml
 This is the classfication file used for recognizing face, which is copied from https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_frontalface_default.xml
 #### data_setup.py
@@ -64,5 +68,8 @@ Code to recognize a specific face
 ## (4) Final Application
 Following codes is for the applications of integrated robot. The demonstration of it could be viewed via https://uniofnottm-my.sharepoint.com/:f:/g/personal/ssyyl20_nottingham_ac_uk/Er96vf4qYWJBqkzvtPdmCy0BttAT07Y9VWQ2YcLCw33cCg?e=NZlaZr   
 ### (4.1) Pick and Place  
+Program to pick and place different colour objects into corresponding platforms. The program has been divided into different fucntions and the control code is in the control_panel.py.
 ### (4.2) Search and Classification  
+Program to search and classify different colour objects around the robot into corresponding platforms. The program has been divided into different fucntions and the control code is in the control_panel.py.
 ### (4.3) Unlocking  
+Program to unlock and bow to specific face.
