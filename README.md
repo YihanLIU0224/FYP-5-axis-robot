@@ -39,15 +39,30 @@ Code to calculate inverse kinematic equations
 #### Code 4: joint_motion.py
 Code to control the rotation of joints
 ## (3) Computer Vision
-The following codes for computer vision require to build the environment for RealSense Camera.  
-Detailed procedure for this could be 
+The following codes for computer vision require to build the environment for RealSense Camera.    
+Detailed procedure for this could be seen in https://github.com/datasith/Ai_Demos_RPi/wiki/Raspberry-Pi-4-and-Intel-RealSense-D435  
+Also, OpenCV and its controbution libraries should be installed to processing images
+These could be achieved by    
+##### pip install opencv-python  
+##### pip install opencv-contrib-python   
+### ----------------------------------------------------------------------------------------------
 ### (3.1) Colour Recognition
 #### HSV detector.py
+Program to detect the values of HSV parameters of a pixel colour
 #### colour_detect.py
+Program to detect and measure the coordinate of object with a specific colour
 ### ----------------------------------------------------------------------------------------------
 ### (3.2) Facial Recognition
 #### haarcascade_frontalface_default.xml
+This is the classfication file used for recognizing face, which is copied from https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_frontalface_default.xml
 #### data_setup.py
+Code to capture the facial images for training, images will be generated in the database folder
 #### trainer.py
+Code to train the camera using facial images in database, output classification file is saved in trainer folder
 #### facial_recognition.py
+Code to recognize a specific face
 ## (4) Final Application
+Following codes is for the applications of integrated robot. The demonstration of it could be viewed via https://uniofnottm-my.sharepoint.com/:f:/g/personal/ssyyl20_nottingham_ac_uk/Er96vf4qYWJBqkzvtPdmCy0BttAT07Y9VWQ2YcLCw33cCg?e=NZlaZr   
+### (4.1) Pick and Place  
+### (4.2) Search and Classification  
+### (4.3) Unlocking  
