@@ -14,8 +14,16 @@ The disgram of designed robot could be shown as
 <img src = "https://github.com/YihanLIU0224/FYP-5-axis-robot/assets/132924198/53aaa8e7-c8a8-44ce-96c8-1dad855e63fb" width = "200px">   
 Also, there are some fixators designed to install on each joint to test accuracy of rotational angle of joints, which could be shown as  
 <img src = "https://github.com/YihanLIU0224/FYP-5-axis-robot/assets/132924198/a44b9272-2aa9-4ccb-aa07-1fca570815df" width = "400px">
-
-
 ## (2) Robotic Kinematics
+### (2.1) Kinematic Simulation in MATLAB (MATLAB code)
+#### forward_kinematic_matrix_calculation.m
+#### forward_kinematic_equation_calculation.m
+#### inverse_kinematic.m
+#### workspace_simulation.m
+### (2.2) Kinematic Code of Raspberry Pi (Python Code)
+#### end_effector.py
+#### forward_kinematic.py
+#### inverse_kinematic.py
+#### joint_motion.py
 ## (3) Computer Vision
 ## (4) Final Application
