@@ -13,17 +13,32 @@ Also, there is a fixator designed on the end effector to install depth camera.
 The disgram of designed robot could be shown as  
 <img src = "https://github.com/YihanLIU0224/FYP-5-axis-robot/assets/132924198/53aaa8e7-c8a8-44ce-96c8-1dad855e63fb" width = "200px">   
 Also, there are some fixators designed to install on each joint to test accuracy of rotational angle of joints, which could be shown as  
-<img src = "https://github.com/YihanLIU0224/FYP-5-axis-robot/assets/132924198/a44b9272-2aa9-4ccb-aa07-1fca570815df" width = "400px">
-## (2) Robotic Kinematics
+<img src = "https://github.com/YihanLIU0224/FYP-5-axis-robot/assets/132924198/a44b9272-2aa9-4ccb-aa07-1fca570815df" width = "400px">  
+The processor used in this project is Raspberry Pi Model 4B.  
+The camera used for vision development is Intel RealSense D435.
+## (2) Robotic Kinematics  
+These sections includes the MATLAB simulation codes and kinematic codes used in the Raspberry Pi.  
 ### (2.1) Kinematic Simulation in MATLAB (MATLAB code)
-#### forward_kinematic_matrix_calculation.m
-#### forward_kinematic_equation_calculation.m
-#### inverse_kinematic.m
-#### workspace_simulation.m
-### (2.2) Kinematic Code of Raspberry Pi (Python Code)
-#### end_effector.py
-#### forward_kinematic.py
-#### inverse_kinematic.py
-#### joint_motion.py
+#### Code 1: forward_kinematic_matrix_calculation.m
+Run forward kinematics (joint angles -> coordinates of end effector) using matrix.  
+#### Code 2: forward_kinematic_equation_calculation.m
+Run forward kinematics (joint angles -> coordinates of end effector) using equations.  
+#### Code 3: inverse_kinematic.m
+Run inverse kinematics (coordinates of end effector -> joint angles).   
+#### Code 4: workspace_simulation.m
+Simulate the workspace of designed robot using Monte Carlo method.   
+### ----------------------------------------------------------------------------------------------
+### (2.2) Kinematic Code of Raspberry Pi (Python Code)  
+These following codes require to install the GPIO and Python library in the Raspberry Pi OS.  
+#### Code 1: end_effector.py
+Code to switch ON/OFF end effector
+#### Code 2: forward_kinematic.py
+Code to calcualte forward kinematic equations
+#### Code 3: inverse_kinematic.py
+Code to calculate inverse kinematic equations
+#### Code 4: joint_motion.py
+Code to control the rotation of joints
 ## (3) Computer Vision
+### (3.1) Colour Recognition
+### (3.2) Facial Recognition
 ## (4) Final Application
