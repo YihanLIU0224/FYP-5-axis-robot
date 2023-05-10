@@ -26,7 +26,7 @@ Run forward kinematics (joint angles -> coordinates of end effector) using equat
 #### Code 3: inverse_kinematic.m
 Run inverse kinematics (coordinates of end effector -> joint angles).   
 #### Code 4: workspace_simulation.m
-This simulation needs to install the robotic toolbox from Peter Corke  
+This simulation needs to install the robotic toolbox from Peter Corke.  
 Details for installation of this could be found: https://petercorke.com/toolboxes/robotics-toolbox/  
 Simulate the workspace of designed robot using Monte Carlo method.   
 ### ----------------------------------------------------------------------------------------------
@@ -43,7 +43,7 @@ Code to control the rotation of joints
 ## (3) Computer Vision
 The following codes for computer vision require to build the environment for RealSense Camera.    
 Detailed procedure for this could be seen in https://github.com/datasith/Ai_Demos_RPi/wiki/Raspberry-Pi-4-and-Intel-RealSense-D435  
-Also, OpenCV and its controbution libraries should be installed to processing images
+Also, OpenCV and its controbution libraries should be installed to processing images.
 These could be achieved by    
 ##### pip install opencv-python  
 ##### pip install opencv-contrib-python   
