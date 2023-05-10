@@ -26,6 +26,8 @@ Run forward kinematics (joint angles -> coordinates of end effector) using equat
 #### Code 3: inverse_kinematic.m
 Run inverse kinematics (coordinates of end effector -> joint angles).   
 #### Code 4: workspace_simulation.m
+This simulation needs to install the robotic toolbox from Peter Corke  
+Details for installation of this could be found: https://petercorke.com/toolboxes/robotics-toolbox/  
 Simulate the workspace of designed robot using Monte Carlo method.   
 ### ----------------------------------------------------------------------------------------------
 ### (2.2) Kinematic Code of Raspberry Pi (Python Code)  
